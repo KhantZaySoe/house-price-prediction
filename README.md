@@ -33,6 +33,34 @@ Model performance is evaluated using MAE, MSE, RMSE, and R² score.
 
 ---
 
+## Project Files Summary
+
+### app.py
+Main Flask application.
+Runs the web app, takes user input (area, rooms, township, amenities), loads the trained model, and returns house price predictions.
+
+### condo_price_model.pkl
+Final trained machine learning model.
+Created from cleaned housing data and used by app.py to predict prices.
+
+### model_columns.pkl
+Stores the feature names used during training.
+Ensures correct input format during prediction.
+
+### X_train_mean.pkl
+Contains mean values of training data.
+Used to handle missing or optional user inputs.
+
+### FinalCleanedOk.csv
+Cleaned dataset used for model training and evaluation.
+Missing values and outliers were handled.
+
+### mytrainingmodel.ipynb
+Model development notebook.
+Includes data preprocessing, model training (Polynomial, Ridge, Lasso), evaluation, and model selection.
+
+---
+
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Clone the repository
