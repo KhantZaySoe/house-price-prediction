@@ -59,6 +59,15 @@ Missing values and outliers were handled.
 Model development notebook.
 Includes data preprocessing, model training (Polynomial, Ridge, Lasso), evaluation, and model selection.
 
+### Requirements
+
+This project uses Python and several machine learning libraries.
+All required dependencies are listed in requirements.txt
+
+How to install dependencies
+After cloning the repository and activating a virtual environment, run:
+pip install -r requirements.txt
+
 ---
 
 ## ▶️ How to Run the Project
