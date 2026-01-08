@@ -83,14 +83,16 @@ The project follows a **data analysis and machine learning workflow**:
 
 ```
 HousePricePrediction/
+HousePricePrediction/
 │
-├── Churn.ipynb                         # Model training & analysis notebook
-├── Churn_Modelling.csv                # Cleaned housing dataset
-├── requirements.txt                   # Python dependencies
-├── README.md                          # Project documentation
-│
-├── research/
-│   └── House_Price_Prediction_Research_Poster.pptx
+├── app.py                     # Flask web application for house price prediction
+├── condo_price_model.pkl      # Trained machine learning model
+├── model_columns.pkl          # Feature column order used during training
+├── X_train_mean.pkl           # Mean values from training data (for preprocessing)
+├── FinalCleanedOk.csv          # Cleaned housing dataset (Myanmar real data)
+├── mytrainingmodel.ipynb      # Jupyter Notebook for data cleaning, training, and evaluation
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
 │
 └── .gitignore
 ```
