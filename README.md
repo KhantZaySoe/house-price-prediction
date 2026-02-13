@@ -1,184 +1,57 @@
-# House Price Prediction Using Machine Learning (Myanmar Housing Data)
+# 🏠 Yangon Condo Price Prediction
 
-## Project Overview
-
-This project focuses on **House Price Prediction** using **real housing data collected from Myanmar**, especially from **Yangon housing and condo listings**.
-
-Our group collected real-world housing data from online property platforms in Myanmar. The dataset was carefully **cleaned, processed, and analyzed**, and multiple **machine learning regression models** were trained to predict house prices accurately.
-
-The main aim of this project is to help users **estimate house prices quickly and confidently** using data-driven machine learning techniques.
+This project is a simple machine learning web application that predicts condo prices in Yangon based on property features such as area, bedrooms, bathrooms, township, and amenities.  
+The system returns the predicted price in both USD and MMK.
 
 ---
 
-## Group Work & Data Collection
-
-This is a **group research project**.
-
-* Data was collected from **real Myanmar housing sources** (online listings and records).
-* Raw data contained missing values, inconsistent formats, and noise.
-* We performed **data cleaning, preprocessing, and feature selection** before model training.
-* The final dataset represents realistic housing conditions in Myanmar.
+## 🚀 Features
+- Predict condo price using a trained machine learning model  
+- Web application built with Flask  
+- Uses cleaned housing dataset  
+- Shows predicted price in USD and MMK  
 
 ---
 
-## Project Objectives
-
-* Develop a machine learning model to predict house prices effectively
-* Ensure users can rely on accurate price predictions
-* Support quicker and more confident decision-making
-* Evaluate model performance using statistical analysis
-* Present the research findings clearly through a research poster
-
----
-
-## Methodology
-
-The project follows a **data analysis and machine learning workflow**:
-
-1. **Data Collection**
-
-   * Real housing data from Myanmar property listings
-
-2. **Data Cleaning & Preprocessing**
-
-   * Handling missing values
-   * Encoding categorical features
-   * Feature scaling and transformation
-
-3. **Model Training**
-   Multiple regression models were trained and compared:
-
-   * Linear Regression
-   * Polynomial Regression
-   * Ridge Regression
-   * Lasso Regression
-
-4. **Model Evaluation**
-
-   * Error comparison
-   * Performance analysis
-   * Best model selection
-
-5. **Implementation**
-
-   * Final model used for house price prediction
-   * Prices predicted in **USD and MMK**
+## 🛠 Tools Used
+- Python  
+- Flask  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- HTML / CSS  
 
 ---
 
-## Case Study & Research Approach
-
-* **Case Study**: Yangon housing market
-* **Research Type**: Action Research
-* **Techniques Used**:
-
-  * Observation
-  * Data analysis
-  * Questionnaires and records (for understanding housing trends)
-  * Personal and public housing records
+## 📂 Project Structure
+- `app.py` – Flask web application  
+- `condo_price_model.pkl` – Trained ML model  
+- `model_columns.pkl` – Feature columns used during training  
+- `X_train_mean.pkl` – Mean values for prediction  
+- `FinalCleanedOk.csv` – Cleaned dataset  
+- `mytrainingmodel.ipynb` – Model training notebook  
+- `requirements.txt` – Project dependencies  
 
 ---
 
-## Project Structure
+## ▶️ How to Run
 
-```
-HousePricePrediction/
-HousePricePrediction/
-│
-├── app.py                     # Flask web application for house price prediction
-├── condo_price_model.pkl      # Trained machine learning model
-├── model_columns.pkl          # Feature column order used during training
-├── X_train_mean.pkl           # Mean values from training data (for preprocessing)
-├── FinalCleanedOk.csv          # Cleaned housing dataset (Myanmar real data)
-├── mytrainingmodel.ipynb      # Jupyter Notebook for data cleaning, training, and evaluation
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-│
-└── .gitignore
-```
+1. Clone the repository  
+   git clone <your-repository-link>
+
+2. Install dependencies  
+   pip install -r requirements.txt
+
+3. Run the application  
+   python app.py
+
+4. Open your browser and go to  
+   http://127.0.0.1:5000
 
 ---
 
-## Research Poster Summary
-
-This repository includes a **research poster** created for academic presentation.
-
-### Poster Highlights:
-
-* Real Myanmar housing dataset
-* Comparison of multiple regression models
-* Model performance analysis
-* Key findings and insights
-* Practical application for house price estimation
-
-The poster file can be found in the **`research/`** folder.
-
----
-
-## Technologies Used
-
-* Python
-* Pandas, NumPy
-* Scikit-learn
-* Matplotlib / Seaborn
-* Jupyter Notebook
-* Git & GitHub
-
----
-
-## ▶️ How to Run This Project
-
-### 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/KhantZaySoe/house-price-prediction.git
-cd house-price-prediction
-```
-
-### 2️⃣ Create and Activate Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-Activate (Windows):
-
-```bash
-.\.venv\Scripts\Activate.ps1
-```
-
-### 3️⃣ Install Required Libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4️⃣ Run the Notebook
-
-```bash
-jupyter notebook
-```
-
-Open **`Churn.ipynb`** and run cells step by step.
-
----
-
-## 📈 Results
-
-* The trained model can predict house prices with reasonable accuracy
-* Polynomial and regularized regression models performed better on complex patterns
-* The results show that machine learning can support housing price estimation in Myanmar
-
----
-
-
-## Authors
-
-**Khant Zay Soe**
-House Price Prediction (Myanmar Housing Data)
-
----
-
-## Note
-
-This project is developed for **academic and learning purposes only** and does not represent official property valuations.
+## 📈 What I Learned
+- Data cleaning and preprocessing  
+- Regression models (Polynomial, Ridge, Lasso)  
+- Building a Flask web application  
+- Deploying a machine learning model  
