@@ -37,7 +37,7 @@ The system returns the predicted price in both USD and MMK.
 ## ▶️ How to Run
 
 1. Clone the repository  
-   git clone <your-repository-link>
+   git clone https://github.com/KhantZaySoe/house-price-prediction
 
 2. Install dependencies  
    pip install -r requirements.txt
